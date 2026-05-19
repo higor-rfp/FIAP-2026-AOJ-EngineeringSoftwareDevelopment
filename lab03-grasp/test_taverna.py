@@ -13,7 +13,7 @@ def test_venda_de_itens_simples():
     
     # Valida o cálculo total base
     total = servico.calcular_total_mochila(mochila)
-    assert total == 200.0  # 50.0 da Poção + 150.0 da Espada
+    assert total == 205.0  # 50.0 da Poção + 10% item começando com "Poção" + 150.0 da Espada
 
 def test_taxa_magica_desafio_final():
     mochila = Inventario()
