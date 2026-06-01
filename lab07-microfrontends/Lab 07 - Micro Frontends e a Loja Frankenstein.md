@@ -22,7 +22,7 @@ Sua missão é separar esses times usando **CustomEvents** para comunicação e 
 1. No seu Codespaces, navegue até a pasta do laboratório e instale as dependências:
    ```bash
    cd lab07-microfrontends
-   pip install fastapi uvicorn
+   pip install fastapi uvicorn httpx2
    ```
 2. Inicie o servidor:
    ```bash
